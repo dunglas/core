@@ -232,7 +232,6 @@ final class SchemaBuilder implements SchemaBuilderInterface
                 }
             }
 
-
             if ($isInternalGraphqlType || $input || null !== $mutationName) {
                 $resolve = null;
             } elseif ($type->isCollection()) {
