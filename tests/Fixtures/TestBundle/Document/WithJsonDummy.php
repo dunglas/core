@@ -23,9 +23,9 @@ use Doctrine\ODM\MongoDB\Mapping\Annotations as ODM;
 class WithJsonDummy
 {
     /**
-     * @var int
+     * @var int|null
      *
-     * @ODM\Id(strategy="INCREMENT", type="int", nullable=true)
+     * @ODM\Id(strategy="INCREMENT", type="int")
      */
     private $id;
 

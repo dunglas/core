@@ -97,7 +97,7 @@ class User extends AbstractSecurityUser
      *
      * @Groups({"user"})
      */
-    private $username;
+    private $username;  /** @phpstan-ignore-line Used through serialization group */
 
     public function getId(): int
     {

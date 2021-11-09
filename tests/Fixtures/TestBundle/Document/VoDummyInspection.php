@@ -56,7 +56,7 @@ class VoDummyInspection
      */
     private $performed;
 
-    private $attributeWithoutConstructorEquivalent;
+    private $attributeWithoutConstructorEquivalent; /** @phpstan-ignore-line Intentionally non-serialized value */
 
     public function __construct(bool $accepted, VoDummyCar $car, DateTime $performed = null, string $parameterWhichIsNotClassAttribute = '')
     {

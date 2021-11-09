@@ -3000,7 +3000,10 @@ class DocumentationNormalizerV3Test extends TestCase
         $this->doTestNormalizeWithCustomFormatsDefinedAtOperationLevel($formatProviderProphecy->reveal());
     }
 
-    private function doTestNormalizeWithCustomFormatsDefinedAtOperationLevel(OperationAwareFormatsProviderInterface $formatsProvider = null): void
+    /**
+     * @param array|OperationAwareFormatsProviderInterface  $formatsProvider
+     */
+    private function doTestNormalizeWithCustomFormatsDefinedAtOperationLevel($formatsProvider = null): void
     {
         $documentation = new Documentation(new ResourceNameCollection([Dummy::class]), 'Test API', 'This is a test API.', '1.2.3');
 
@@ -3264,7 +3267,7 @@ class DocumentationNormalizerV3Test extends TestCase
             'page',
             false,
             'itemsPerPage',
-            $formatsProvider ?? [],
+            [],
             false,
             'pagination',
             ['spec_version' => 3],

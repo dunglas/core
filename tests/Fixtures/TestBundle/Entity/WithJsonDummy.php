@@ -23,9 +23,9 @@ use Doctrine\ORM\Mapping as ORM;
 class WithJsonDummy
 {
     /**
-     * @var int
+     * @var int|null
      *
-     * @ORM\Column(type="integer", nullable=true)
+     * @ORM\Column(type="integer")
      * @ORM\Id
      * @ORM\GeneratedValue(strategy="AUTO")
      */
