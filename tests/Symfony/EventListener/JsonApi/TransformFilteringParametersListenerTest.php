@@ -24,7 +24,7 @@ use Symfony\Component\HttpKernel\Event\RequestEvent;
  */
 class TransformFilteringParametersListenerTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     private TransformFilteringParametersListener $listener;
 

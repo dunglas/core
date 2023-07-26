@@ -27,7 +27,7 @@ use Prophecy\PhpUnit\ProphecyTrait;
 
 class QueryBuilderHelperTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     /**
      * @dataProvider provideAddJoinOnce

@@ -24,7 +24,7 @@ use Prophecy\PhpUnit\ProphecyTrait;
  */
 class TypesContainerTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     private TypesContainer $typesContainer;
 

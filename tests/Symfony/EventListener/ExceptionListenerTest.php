@@ -26,7 +26,7 @@ use Symfony\Component\HttpKernel\HttpKernelInterface;
  */
 class ExceptionListenerTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     /**
      * @dataProvider getRequest

@@ -27,7 +27,7 @@ use Symfony\Component\DependencyInjection\Reference;
  */
 class MetadataAwareNameConverterPassTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testConstruct(): void
     {

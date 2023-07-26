@@ -31,7 +31,7 @@ use Symfony\Component\Security\Core\Exception\AccessDeniedException;
  */
 class DenyAccessListenerTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testNoResourceClass(): void
     {

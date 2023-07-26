@@ -41,7 +41,7 @@ use Symfony\Component\PropertyInfo\Type;
  */
 class TypeConverterTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     private ObjectProphecy $typeBuilderProphecy;
     private ObjectProphecy $typesContainerProphecy;

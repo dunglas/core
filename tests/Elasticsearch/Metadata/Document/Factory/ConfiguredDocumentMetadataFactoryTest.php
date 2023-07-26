@@ -23,7 +23,7 @@ use Prophecy\PhpUnit\ProphecyTrait;
 
 class ConfiguredDocumentMetadataFactoryTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testConstruct(): void
     {

@@ -31,7 +31,7 @@ use Symfony\Component\HttpKernel\HttpKernelInterface;
  */
 class AddHeadersListenerTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testDoNotSetHeaderWhenMethodNotCacheable(): void
     {

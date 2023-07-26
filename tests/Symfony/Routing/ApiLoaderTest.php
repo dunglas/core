@@ -45,7 +45,7 @@ use Symfony\Component\Routing\Route;
  */
 class ApiLoaderTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testApiLoader(): void
     {

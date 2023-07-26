@@ -27,7 +27,7 @@ use Symfony\Component\Cache\Exception\CacheException;
 
 class CachedDocumentMetadataFactoryTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testConstruct(): void
     {

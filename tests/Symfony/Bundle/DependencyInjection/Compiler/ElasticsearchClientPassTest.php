@@ -28,7 +28,7 @@ use Symfony\Component\DependencyInjection\Reference;
  */
 class ElasticsearchClientPassTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testConstruct(): void
     {

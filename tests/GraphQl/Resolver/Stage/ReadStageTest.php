@@ -35,7 +35,7 @@ use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
  */
 class ReadStageTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     private ReadStage $readStage;
     private ObjectProphecy $iriConverterProphecy;

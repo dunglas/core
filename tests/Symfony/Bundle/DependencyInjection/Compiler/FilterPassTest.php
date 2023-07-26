@@ -27,7 +27,7 @@ use Symfony\Component\DependencyInjection\Reference;
  */
 class FilterPassTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testProcess(): void
     {

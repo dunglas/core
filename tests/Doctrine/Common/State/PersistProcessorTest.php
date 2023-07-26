@@ -28,7 +28,7 @@ use Prophecy\Prediction\NoCallsPrediction;
 
 class PersistProcessorTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testConstruct(): void
     {

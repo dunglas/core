@@ -37,7 +37,7 @@ use Symfony\Component\Validator\Constraints\Type;
  */
 final class PropertySchemaCollectionRestrictionTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     private PropertySchemaCollectionRestriction $propertySchemaCollectionRestriction;
 

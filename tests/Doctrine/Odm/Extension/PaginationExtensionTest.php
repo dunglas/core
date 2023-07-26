@@ -42,7 +42,7 @@ use Prophecy\Prophecy\ObjectProphecy;
  */
 class PaginationExtensionTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     private ObjectProphecy $managerRegistryProphecy;
 

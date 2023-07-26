@@ -34,7 +34,7 @@ use Prophecy\PhpUnit\ProphecyTrait;
  */
 class IdentifiersExtractorTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testGetIdentifiersFromItem(): void
     {

@@ -24,7 +24,7 @@ use Symfony\Component\Serializer\Normalizer\DenormalizerInterface;
 
 class PaginatorTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     private const DOCUMENTS = [
         'hits' => [

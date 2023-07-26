@@ -33,7 +33,7 @@ use Symfony\Component\HttpKernel\HttpKernelInterface;
  */
 class RespondListenerTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testDoNotHandleResponse(): void
     {

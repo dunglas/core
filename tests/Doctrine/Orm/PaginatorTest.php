@@ -22,7 +22,7 @@ use Prophecy\PhpUnit\ProphecyTrait;
 
 class PaginatorTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     /**
      * @dataProvider initializeProvider

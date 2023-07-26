@@ -35,7 +35,7 @@ use Symfony\Component\DependencyInjection\ContainerBuilder;
  */
 class ApiPlatformBundleTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testBuild(): void
     {

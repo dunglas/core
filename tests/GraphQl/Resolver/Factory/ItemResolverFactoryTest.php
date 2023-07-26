@@ -32,7 +32,7 @@ use Psr\Container\ContainerInterface;
  */
 class ItemResolverFactoryTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     private ItemResolverFactory $itemResolverFactory;
     private ObjectProphecy $readStageProphecy;

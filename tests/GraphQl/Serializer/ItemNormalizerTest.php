@@ -35,7 +35,7 @@ use Symfony\Component\Serializer\SerializerInterface;
  */
 class ItemNormalizerTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testSupportNormalization(): void
     {

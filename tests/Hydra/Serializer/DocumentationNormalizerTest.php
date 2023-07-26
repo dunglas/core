@@ -42,7 +42,7 @@ use Symfony\Component\Serializer\Serializer;
  */
 class DocumentationNormalizerTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     /**
      * @group legacy

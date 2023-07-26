@@ -40,7 +40,7 @@ use Symfony\Component\Routing\RouterInterface;
 
 class IriConverterTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testGetIriFromItemWithOperation(): void
     {

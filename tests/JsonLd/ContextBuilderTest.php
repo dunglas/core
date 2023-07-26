@@ -40,7 +40,7 @@ use Symfony\Component\PropertyInfo\Type;
  */
 class ContextBuilderTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     private string $entityClass;
     private ObjectProphecy $resourceNameCollectionFactoryProphecy;

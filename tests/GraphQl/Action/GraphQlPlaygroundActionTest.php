@@ -28,7 +28,7 @@ use Twig\Environment as TwigEnvironment;
  */
 class GraphQlPlaygroundActionTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testEnabledAction(): void
     {

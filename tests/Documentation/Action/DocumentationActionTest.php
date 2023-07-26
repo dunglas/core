@@ -33,7 +33,7 @@ use Symfony\Component\HttpFoundation\Request;
  */
 class DocumentationActionTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testDocumentationAction(): void
     {

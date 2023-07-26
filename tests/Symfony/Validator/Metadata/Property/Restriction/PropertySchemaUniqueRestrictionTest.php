@@ -26,7 +26,7 @@ use Symfony\Component\Validator\Constraints\Unique;
  */
 final class PropertySchemaUniqueRestrictionTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     private PropertySchemaUniqueRestriction $propertySchemaUniqueRestriction;
 

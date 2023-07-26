@@ -35,7 +35,7 @@ use Prophecy\Prophecy\ObjectProphecy;
  */
 class CollectionProviderTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     private ObjectProphecy $managerRegistryProphecy;
     private ObjectProphecy $resourceMetadataFactoryProphecy;

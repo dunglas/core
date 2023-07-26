@@ -25,7 +25,7 @@ use Symfony\Component\DependencyInjection\Definition;
 
 final class TestClientPassTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     private ObjectProphecy $containerBuilderProphecy;
     private TestClientPass $testClientPass;

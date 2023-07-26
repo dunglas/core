@@ -30,7 +30,7 @@ use Prophecy\PhpUnit\ProphecyTrait;
  */
 class DoctrineOrmPropertyMetadataFactoryTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testCreateNoManager(): void
     {

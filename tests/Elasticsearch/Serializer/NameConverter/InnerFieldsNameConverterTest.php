@@ -20,7 +20,7 @@ use Symfony\Component\Serializer\NameConverter\AdvancedNameConverterInterface;
 
 class InnerFieldsNameConverterTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testConstruct(): void
     {

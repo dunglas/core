@@ -28,7 +28,7 @@ use Symfony\Component\DependencyInjection\Exception\InvalidArgumentException as 
  */
 class AttributeFilterPassTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testConstruct(): void
     {

@@ -31,7 +31,7 @@ use Symfony\Component\HttpKernel\ControllerMetadata\ArgumentMetadata;
 
 class PayloadArgumentResolverTest extends KernelTestCase
 {
-    use ProphecyTrait;
+
 
     public function testItSupportsRequestWithPayloadOfExpectedType(): void
     {

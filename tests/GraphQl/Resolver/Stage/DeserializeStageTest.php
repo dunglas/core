@@ -28,7 +28,7 @@ use Symfony\Component\Serializer\Normalizer\DenormalizerInterface;
  */
 class DeserializeStageTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     private DeserializeStage $deserializeStage;
     private ObjectProphecy $denormalizerProphecy;

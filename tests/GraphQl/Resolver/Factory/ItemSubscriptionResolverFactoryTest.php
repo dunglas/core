@@ -32,7 +32,7 @@ use Prophecy\Prophecy\ObjectProphecy;
  */
 class ItemSubscriptionResolverFactoryTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     private ItemSubscriptionResolverFactory $itemSubscriptionResolverFactory;
     private ObjectProphecy $readStageProphecy;

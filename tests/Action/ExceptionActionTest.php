@@ -39,7 +39,7 @@ use Symfony\Component\Serializer\SerializerInterface;
 class ExceptionActionTest extends TestCase
 {
     use ExpectDeprecationTrait;
-    use ProphecyTrait;
+
 
     public function testActionWithCatchableException(): void
     {

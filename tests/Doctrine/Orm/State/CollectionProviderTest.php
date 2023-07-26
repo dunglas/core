@@ -34,7 +34,7 @@ use Prophecy\PhpUnit\ProphecyTrait;
 
 class CollectionProviderTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testGetCollection(): void
     {

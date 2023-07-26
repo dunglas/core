@@ -48,7 +48,7 @@ use Symfony\Component\Serializer\SerializerInterface;
  */
 class PublishMercureUpdatesListenerTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testPublishUpdate(): void
     {

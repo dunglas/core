@@ -38,7 +38,7 @@ use Symfony\Component\Serializer\Normalizer\NormalizerInterface;
  */
 class SerializeStageTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     private ObjectProphecy $normalizerProphecy;
     private ObjectProphecy $serializerContextBuilderProphecy;
@@ -109,7 +109,7 @@ class SerializeStageTest extends TestCase
     {
         $defaultContext = [
             'args' => [],
-            'info' => self::createStub(ResolveInfo::class),
+            'info' => self::prophesize(ResolveInfo::class),
         ];
 
         yield 'item' => [new \stdClass(), 'item_query', $defaultContext + ['is_collection' => false, 'is_mutation' => false, 'is_subscription' => false], false, ['normalized_item']];
@@ -131,7 +131,7 @@ class SerializeStageTest extends TestCase
             'is_mutation' => false,
             'is_subscription' => false,
             'args' => $args,
-            'info' => self::createStub(ResolveInfo::class),
+            'info' => self::prophesize(ResolveInfo::class),
         ];
 
         /** @var Operation $operation */

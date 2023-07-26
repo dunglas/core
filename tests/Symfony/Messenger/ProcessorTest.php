@@ -28,7 +28,7 @@ use Symfony\Component\Messenger\Stamp\HandledStamp;
 
 class ProcessorTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testPersist(): void
     {

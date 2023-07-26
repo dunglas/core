@@ -40,7 +40,7 @@ use Prophecy\PhpUnit\ProphecyTrait;
  */
 class PaginationExtensionTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testConstruct(): void
     {

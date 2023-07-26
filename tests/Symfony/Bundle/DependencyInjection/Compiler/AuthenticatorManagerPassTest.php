@@ -23,7 +23,7 @@ use Symfony\Component\DependencyInjection\Definition;
 
 final class AuthenticatorManagerPassTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     private ObjectProphecy $containerBuilderProphecy;
     private AuthenticatorManagerPass $authenticatorManagerPass;

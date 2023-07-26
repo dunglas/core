@@ -24,7 +24,7 @@ use Symfony\Component\HttpKernel\Event\RequestEvent;
  */
 class TransformSortingParametersListenerTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     private TransformSortingParametersListener $listener;
 

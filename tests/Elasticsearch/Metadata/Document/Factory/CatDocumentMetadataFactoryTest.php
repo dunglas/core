@@ -31,7 +31,7 @@ use Prophecy\PhpUnit\ProphecyTrait;
 
 class CatDocumentMetadataFactoryTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testConstruct(): void
     {

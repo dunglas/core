@@ -29,7 +29,7 @@ use Prophecy\Prophecy\ObjectProphecy;
  */
 class ValidateStageTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     private ValidateStage $validateStage;
     private ObjectProphecy $validatorProphecy;

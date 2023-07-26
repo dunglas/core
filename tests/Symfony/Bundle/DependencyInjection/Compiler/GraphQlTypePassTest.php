@@ -27,7 +27,7 @@ use Symfony\Component\DependencyInjection\Reference;
  */
 class GraphQlTypePassTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testProcess(): void
     {

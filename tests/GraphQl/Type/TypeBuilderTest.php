@@ -47,7 +47,7 @@ use Symfony\Component\PropertyInfo\Type;
  */
 class TypeBuilderTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     private ObjectProphecy $typesContainerProphecy;
     /** @var callable */

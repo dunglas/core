@@ -38,7 +38,7 @@ use Prophecy\PhpUnit\ProphecyTrait;
  */
 class ItemProviderTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testGetItemSingleIdentifier(): void
     {

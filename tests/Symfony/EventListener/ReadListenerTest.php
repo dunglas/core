@@ -33,7 +33,7 @@ use Symfony\Component\HttpKernel\Event\RequestEvent;
 
 class ReadListenerTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testNotAnApiPlatformRequest(): void
     {

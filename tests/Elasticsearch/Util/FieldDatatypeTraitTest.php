@@ -25,7 +25,7 @@ use Symfony\Component\PropertyInfo\Type;
 
 class FieldDatatypeTraitTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testGetNestedFieldPath(): void
     {

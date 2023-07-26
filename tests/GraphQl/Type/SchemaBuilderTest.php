@@ -40,7 +40,7 @@ use Prophecy\Prophecy\ObjectProphecy;
  */
 class SchemaBuilderTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     private ObjectProphecy $resourceNameCollectionFactoryProphecy;
     private ObjectProphecy $resourceMetadataCollectionFactoryProphecy;

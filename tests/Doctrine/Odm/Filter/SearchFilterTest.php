@@ -33,7 +33,7 @@ use Prophecy\PhpUnit\ProphecyTrait;
  */
 class SearchFilterTest extends DoctrineMongoDbOdmFilterTestCase
 {
-    use ProphecyTrait;
+
     use SearchFilterTestTrait;
 
     protected string $filterClass = SearchFilter::class;

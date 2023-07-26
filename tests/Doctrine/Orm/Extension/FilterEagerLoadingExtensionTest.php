@@ -38,7 +38,7 @@ use Prophecy\PhpUnit\ProphecyTrait;
  */
 class FilterEagerLoadingExtensionTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testIsNoForceEagerCollectionAttributes(): void
     {

@@ -36,7 +36,7 @@ use Symfony\Component\HttpKernel\HttpKernelInterface;
  */
 class AddTagsListenerTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public const DEFAULT_CACHE_TAG = 'Cache-Tags';
 

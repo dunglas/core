@@ -81,7 +81,7 @@ use Symfony\Component\Validator\Validator\ValidatorInterface;
 class ApiPlatformExtensionTest extends TestCase
 {
     use ExpectDeprecationTrait;
-    use ProphecyTrait;
+
 
     final public const DEFAULT_CONFIG = ['api_platform' => [
         'title' => 'title',

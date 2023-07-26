@@ -27,7 +27,7 @@ use Symfony\Component\Validator\Constraints\Range;
  */
 final class PropertySchemaRangeRestrictionTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     private PropertySchemaRangeRestriction $propertySchemaRangeRestriction;
 

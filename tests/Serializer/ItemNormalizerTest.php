@@ -45,7 +45,7 @@ use Symfony\Component\Serializer\SerializerInterface;
 class ItemNormalizerTest extends TestCase
 {
     use ExpectDeprecationTrait;
-    use ProphecyTrait;
+
 
     /**
      * @group legacy

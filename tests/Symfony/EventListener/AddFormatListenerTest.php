@@ -33,7 +33,7 @@ use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 class AddFormatListenerTest extends TestCase
 {
     use ExpectDeprecationTrait;
-    use ProphecyTrait;
+
 
     public function testNoResourceClass(): void
     {

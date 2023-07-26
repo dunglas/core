@@ -39,7 +39,7 @@ use Symfony\Component\Translation\IdentityTranslator;
  */
 class DeserializeListenerTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     private const FORMATS = ['json' => ['application/json']];
 

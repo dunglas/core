@@ -28,7 +28,7 @@ use Symfony\Component\Validator\Constraints\Uuid;
 
 final class PropertySchemaFormatTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     private PropertySchemaFormat $propertySchemaFormatRestriction;
 

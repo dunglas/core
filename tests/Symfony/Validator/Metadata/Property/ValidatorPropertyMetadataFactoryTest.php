@@ -57,7 +57,7 @@ use Symfony\Component\Validator\Mapping\Loader\AnnotationLoader;
  */
 class ValidatorPropertyMetadataFactoryTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     private ClassMetadata $validatorClassMetadata;
 

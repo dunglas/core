@@ -36,7 +36,7 @@ use Psr\Cache\CacheItemPoolInterface;
  */
 class SubscriptionManagerTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     private ObjectProphecy $subscriptionsCacheProphecy;
     private ObjectProphecy $subscriptionIdentifierGeneratorProphecy;

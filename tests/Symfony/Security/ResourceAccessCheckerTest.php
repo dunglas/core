@@ -30,7 +30,7 @@ use Symfony\Component\Security\Core\Authorization\ExpressionLanguage;
  */
 class ResourceAccessCheckerTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     /**
      * @dataProvider getGranted

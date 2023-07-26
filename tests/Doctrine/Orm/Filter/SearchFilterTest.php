@@ -33,7 +33,7 @@ use Prophecy\PhpUnit\ProphecyTrait;
  */
 class SearchFilterTest extends DoctrineOrmFilterTestCase
 {
-    use ProphecyTrait;
+
     use SearchFilterTestTrait;
 
     protected const ALIAS = 'oo';

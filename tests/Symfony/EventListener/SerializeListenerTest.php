@@ -35,7 +35,7 @@ use Symfony\Component\Serializer\SerializerInterface;
  */
 class SerializeListenerTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testDoNotSerializeWhenControllerResultIsResponse(): void
     {

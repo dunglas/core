@@ -31,7 +31,7 @@ use Symfony\Component\Validator\ConstraintViolationListInterface;
  */
 class ConstraintViolationNormalizerTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     /**
      * @group legacy

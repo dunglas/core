@@ -32,7 +32,7 @@ use Symfony\Component\Serializer\NameConverter\NameConverterInterface;
 
 class MatchFilterTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testConstruct(): void
     {

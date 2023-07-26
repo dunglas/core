@@ -32,7 +32,7 @@ use Prophecy\PhpUnit\ProphecyTrait;
  */
 class OrderExtensionTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testApplyToCollectionWithValidOrder(): void
     {

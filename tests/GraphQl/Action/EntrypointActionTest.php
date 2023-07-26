@@ -41,7 +41,7 @@ use Twig\Environment as TwigEnvironment;
  */
 class EntrypointActionTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     /**
      * Hack to avoid transient failing test because of Date header.

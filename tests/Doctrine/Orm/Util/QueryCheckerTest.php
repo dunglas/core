@@ -26,7 +26,7 @@ use Prophecy\PhpUnit\ProphecyTrait;
 
 class QueryCheckerTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testHasHavingClauseWithHavingClause(): void
     {

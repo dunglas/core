@@ -31,7 +31,7 @@ use Psr\Container\ContainerInterface;
  */
 class CollectionResolverFactoryTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     private CollectionResolverFactory $collectionResolverFactory;
     private ObjectProphecy $readStageProphecy;

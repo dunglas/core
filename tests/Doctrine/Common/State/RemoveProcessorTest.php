@@ -24,7 +24,7 @@ use Prophecy\PhpUnit\ProphecyTrait;
 
 class RemoveProcessorTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testConstruct(): void
     {

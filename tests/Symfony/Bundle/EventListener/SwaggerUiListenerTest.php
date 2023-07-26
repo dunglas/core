@@ -24,7 +24,7 @@ use Symfony\Component\HttpKernel\Event\RequestEvent;
  */
 class SwaggerUiListenerTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     /**
      * @dataProvider getParameters

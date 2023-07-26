@@ -49,7 +49,7 @@ use Symfony\Component\Serializer\Normalizer\AbstractNormalizer;
  */
 class EagerLoadingExtensionTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testApplyToCollection(): void
     {

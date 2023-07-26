@@ -34,7 +34,7 @@ use Symfony\Component\Validator\ConstraintViolationListInterface;
  */
 class ValidationExceptionListenerTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testNotValidationException(): void
     {

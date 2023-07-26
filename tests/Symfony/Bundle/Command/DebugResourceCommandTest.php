@@ -29,7 +29,7 @@ use Symfony\Component\VarDumper\Dumper\DataDumperInterface;
 
 class DebugResourceCommandTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     private function getCommandTester(DataDumperInterface $dumper = null): CommandTester
     {

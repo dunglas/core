@@ -31,7 +31,7 @@ use Symfony\Component\HttpKernel\Event\RequestEvent;
 
 class QueryParameterValidateListenerTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     private QueryParameterValidateListener $testedInstance;
     private ObjectProphecy $queryParameterValidator;

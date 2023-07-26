@@ -42,7 +42,7 @@ use Symfony\Component\HttpKernel\HttpKernelInterface;
 
 class WriteListenerTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     private ObjectProphecy $processorProphecy;
     private ObjectProphecy $iriConverterProphecy;

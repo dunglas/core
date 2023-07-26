@@ -27,7 +27,7 @@ use Symfony\Component\Validator\Constraints\Positive;
  */
 final class PropertySchemaChoiceRestrictionTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     private PropertySchemaChoiceRestriction $propertySchemaChoiceRestriction;
 

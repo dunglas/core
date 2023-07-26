@@ -30,7 +30,7 @@ use Prophecy\PhpUnit\ProphecyTrait;
  */
 class DoctrineMongoDbOdmPropertyMetadataFactoryTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testCreateNoManager(): void
     {

@@ -30,7 +30,7 @@ use Symfony\Component\WebLink\Link;
  */
 class AddLinkHeaderListenerTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     /**
      * @dataProvider provider

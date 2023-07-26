@@ -34,7 +34,7 @@ use Prophecy\PhpUnit\ProphecyTrait;
 
 final class DoctrineOrmLinkFactoryTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testCreateLinksFromRelations(): void
     {

@@ -32,7 +32,7 @@ use Prophecy\PhpUnit\ProphecyTrait;
 
 class DoctrineOrmResourceCollectionMetadataFactoryTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     private function getResourceMetadataCollectionFactory(Operation $operation)
     {

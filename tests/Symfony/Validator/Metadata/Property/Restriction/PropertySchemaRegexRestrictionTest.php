@@ -26,7 +26,7 @@ use Symfony\Component\Validator\Constraints\Regex;
  */
 final class PropertySchemaRegexRestrictionTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     private PropertySchemaRegexRestriction $propertySchemaRegexRestriction;
 

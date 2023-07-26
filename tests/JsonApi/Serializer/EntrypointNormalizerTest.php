@@ -39,7 +39,7 @@ use Symfony\Component\Serializer\Serializer;
  */
 class EntrypointNormalizerTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     /**
      * @group legacy

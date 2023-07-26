@@ -29,7 +29,7 @@ use Psr\Container\ContainerInterface;
  */
 class QueryParameterValidatorTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     private QueryParameterValidator $testedInstance;
     private ObjectProphecy $filterLocatorProphecy;

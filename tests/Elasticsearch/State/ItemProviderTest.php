@@ -30,7 +30,7 @@ use Symfony\Component\Serializer\Normalizer\DenormalizerInterface;
  */
 final class ItemProviderTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testConstruct(): void
     {

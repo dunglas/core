@@ -28,7 +28,7 @@ use Prophecy\Prophecy\ObjectProphecy;
  */
 class WriteStageTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     private WriteStage $writeStage;
     private ObjectProphecy $processorProphecy;

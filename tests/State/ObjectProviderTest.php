@@ -22,7 +22,7 @@ use Prophecy\PhpUnit\ProphecyTrait;
 
 class ObjectProviderTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testProvide(): void
     {

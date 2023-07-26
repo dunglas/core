@@ -33,7 +33,7 @@ use Prophecy\PhpUnit\ProphecyTrait;
 
 class SchemaFactoryTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     private SchemaFactory $schemaFactory;
 

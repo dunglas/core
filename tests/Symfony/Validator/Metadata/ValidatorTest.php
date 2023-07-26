@@ -28,7 +28,7 @@ use Symfony\Component\Validator\Validator\ValidatorInterface as SymfonyValidator
  */
 class ValidatorTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testValid(): void
     {

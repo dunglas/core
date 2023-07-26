@@ -34,7 +34,7 @@ use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
  */
 class ContextActionTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testContextActionWithEntrypoint(): void
     {

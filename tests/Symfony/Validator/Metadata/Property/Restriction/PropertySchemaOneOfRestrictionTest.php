@@ -30,7 +30,7 @@ use Symfony\Component\Validator\Constraints\Positive;
  */
 final class PropertySchemaOneOfRestrictionTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     private PropertySchemaOneOfRestriction $propertySchemaOneOfRestriction;
 

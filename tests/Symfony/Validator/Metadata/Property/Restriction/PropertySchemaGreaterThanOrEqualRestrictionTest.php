@@ -28,7 +28,7 @@ use Symfony\Component\Validator\Constraints\PositiveOrZero;
  */
 final class PropertySchemaGreaterThanOrEqualRestrictionTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     private PropertySchemaGreaterThanOrEqualRestriction $propertySchemaGreaterThanOrEqualRestriction;
 

@@ -41,7 +41,7 @@ use Symfony\Component\PropertyAccess\PropertyAccessorInterface;
  */
 class PurgeHttpCacheListenerTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testOnFlush(): void
     {

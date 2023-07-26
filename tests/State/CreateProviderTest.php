@@ -27,7 +27,7 @@ use Prophecy\PhpUnit\ProphecyTrait;
 
 class CreateProviderTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testProvide(): void
     {

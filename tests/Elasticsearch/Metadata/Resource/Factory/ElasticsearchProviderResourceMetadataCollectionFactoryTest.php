@@ -33,7 +33,7 @@ use Symfony\Bridge\PhpUnit\ExpectDeprecationTrait;
 class ElasticsearchProviderResourceMetadataCollectionFactoryTest extends TestCase
 {
     use ExpectDeprecationTrait;
-    use ProphecyTrait;
+
 
     public function testConstruct(): void
     {

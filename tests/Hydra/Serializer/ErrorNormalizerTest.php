@@ -26,7 +26,7 @@ use Symfony\Component\Serializer\Serializer;
  */
 class ErrorNormalizerTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     /**
      * @group legacy

@@ -28,7 +28,7 @@ use Symfony\Component\Routing\RouterInterface;
  */
 class RouterTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testContextAccessor(): void
     {

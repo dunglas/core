@@ -24,7 +24,7 @@ use Psr\Container\ContainerInterface;
  */
 class TypesFactoryTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testGetTypes(): void
     {

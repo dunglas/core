@@ -28,7 +28,7 @@ use Symfony\Component\Serializer\Normalizer\NormalizerInterface;
 
 final class DocumentNormalizerTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testConstruct(): void
     {

@@ -35,7 +35,7 @@ use Symfony\Component\Serializer\SerializerInterface;
  */
 class CollectionNormalizerTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     /**
      * @group legacy

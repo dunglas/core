@@ -26,7 +26,7 @@ use Symfony\Component\HttpKernel\Event\RequestEvent;
 
 class TransformFieldsetsParametersListenerTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     private TransformFieldsetsParametersListener $listener;
 

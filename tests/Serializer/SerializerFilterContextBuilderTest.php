@@ -33,7 +33,7 @@ use Symfony\Component\HttpFoundation\Request;
  */
 class SerializerFilterContextBuilderTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testCreateFromRequestWithCollectionOperation(): void
     {

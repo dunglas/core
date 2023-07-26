@@ -29,7 +29,7 @@ use Symfony\Contracts\HttpClient\HttpClientInterface;
  */
 class SouinPurgerTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testPurge(): void
     {

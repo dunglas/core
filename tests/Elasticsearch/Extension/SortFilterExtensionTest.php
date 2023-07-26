@@ -25,7 +25,7 @@ use Psr\Container\ContainerInterface;
 
 class SortFilterExtensionTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testConstruct(): void
     {

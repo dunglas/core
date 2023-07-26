@@ -30,7 +30,7 @@ use Psr\Container\ContainerInterface;
  */
 class FilterExtensionTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testApplyToCollectionWithValidFilters(): void
     {

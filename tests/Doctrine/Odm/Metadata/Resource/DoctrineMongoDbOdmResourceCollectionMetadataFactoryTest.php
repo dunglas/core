@@ -32,7 +32,7 @@ use Prophecy\PhpUnit\ProphecyTrait;
 
 final class DoctrineMongoDbOdmResourceCollectionMetadataFactoryTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     private function getResourceMetadataCollectionFactory(Operation $operation)
     {

@@ -29,7 +29,7 @@ use Symfony\Component\Serializer\NameConverter\NameConverterInterface;
 
 class OrderFilterTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testConstruct(): void
     {

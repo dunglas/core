@@ -26,7 +26,7 @@ use Symfony\Component\Validator\Constraints\Positive;
  */
 final class PropertySchemaCountRestrictionTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     private PropertySchemaCountRestriction $propertySchemaCountRestriction;
 

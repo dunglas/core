@@ -32,7 +32,7 @@ use Symfony\Component\Serializer\NameConverter\NameConverterInterface;
 
 class TermFilterTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testConstruct(): void
     {

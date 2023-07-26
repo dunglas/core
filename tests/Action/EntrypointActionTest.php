@@ -25,7 +25,7 @@ use Prophecy\PhpUnit\ProphecyTrait;
  */
 class EntrypointActionTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testGetEntrypoint(): void
     {

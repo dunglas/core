@@ -25,7 +25,7 @@ use Symfony\Component\HttpFoundation\RequestStack;
 
 class DataCollectorResolverFactoryTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     private ObjectProphecy $requestStack;
     private ObjectProphecy $resolverFactory;

@@ -54,7 +54,7 @@ use Symfony\Component\Serializer\NameConverter\AdvancedNameConverterInterface;
  */
 class FieldsBuilderTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     private ObjectProphecy $propertyNameCollectionFactoryProphecy;
     private ObjectProphecy $propertyMetadataFactoryProphecy;

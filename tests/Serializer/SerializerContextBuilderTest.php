@@ -31,7 +31,7 @@ use Symfony\Component\HttpFoundation\Request;
  */
 class SerializerContextBuilderTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     private SerializerContextBuilder $builder;
     private HttpOperation $operation;

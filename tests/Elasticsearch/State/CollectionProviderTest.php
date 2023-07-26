@@ -34,7 +34,7 @@ use Symfony\Component\Serializer\Normalizer\DenormalizerInterface;
  */
 final class CollectionProviderTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testConstruct(): void
     {

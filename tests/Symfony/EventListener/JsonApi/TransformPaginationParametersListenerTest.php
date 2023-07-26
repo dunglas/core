@@ -24,7 +24,7 @@ use Symfony\Component\HttpKernel\Event\RequestEvent;
  */
 class TransformPaginationParametersListenerTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     private TransformPaginationParametersListener $listener;
 

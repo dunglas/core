@@ -36,7 +36,7 @@ use Symfony\Component\VarDumper\Cloner\Data;
  */
 class RequestDataCollectorTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     private ObjectProphecy|Request $request;
     private MockObject|Response $response;

@@ -30,7 +30,7 @@ use Symfony\Component\Serializer\NameConverter\AdvancedNameConverterInterface;
  */
 class SerializerContextBuilderTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     private SerializerContextBuilder $serializerContextBuilder;
 

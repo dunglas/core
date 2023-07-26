@@ -28,7 +28,7 @@ use Prophecy\PhpUnit\ProphecyTrait;
 
 class ResourceFieldResolverTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testId(): void
     {

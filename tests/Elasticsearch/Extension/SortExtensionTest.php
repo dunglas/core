@@ -27,7 +27,7 @@ use Symfony\Component\Serializer\NameConverter\NameConverterInterface;
 
 class SortExtensionTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testConstruct(): void
     {

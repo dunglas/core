@@ -35,7 +35,7 @@ use Symfony\Component\Serializer\Serializer;
  */
 class PartialCollectionViewNormalizerTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     public function testNormalizeDoesNotChangeSubLevel(): void
     {

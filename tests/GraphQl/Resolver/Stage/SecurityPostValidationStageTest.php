@@ -30,7 +30,7 @@ use Symfony\Component\HttpKernel\Exception\AccessDeniedHttpException;
  */
 class SecurityPostValidationStageTest extends TestCase
 {
-    use ProphecyTrait;
+
 
     private SecurityPostValidationStage $securityPostValidationStage;
     private ObjectProphecy $resourceAccessCheckerProphecy;
